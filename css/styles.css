@@ -30,7 +30,11 @@ html[dir="rtl"] .section-header .eyebrow { justify-content: flex-start; }
 html[dir="rtl"] .footer-grid { direction: rtl; }
 html[dir="rtl"] .footer-col ul { padding: 0; }
 html[dir="rtl"] .footer-bottom { flex-direction: row-reverse; }
-html[dir="rtl"] .footer-contact-item { flex-direction: row-reverse; text-align: right; }
+html[dir="rtl"] .footer-contact-item { flex-direction: row-reverse; text-align: right; justify-content: flex-end; }
+html[dir="rtl"] .footer-contact-item p { text-align: right; }
+html[dir="rtl"] .footer-contact-item p strong { text-align: right; }
+html[dir="rtl"] .footer-col { text-align: right; }
+html[dir="rtl"] .footer-col ul { text-align: right; }
 html[dir="rtl"] .breadcrumb { flex-direction: row-reverse; }
 html[dir="rtl"] .why-split { direction: rtl; }
 html[dir="rtl"] .leadership-split { flex-direction: row-reverse; }
@@ -4376,6 +4380,11 @@ html[data-theme="dark"] .about-trust-card p  { color: #555555 !important; }
   background: linear-gradient(135deg, #fff4e6 0%, #ffe8cc 100%);
   color: #e67700;
 }
+.news-thumb-product {
+  background: linear-gradient(135deg, #f0fff4 0%, #c6f6d5 100%);
+  color: #2f855a;
+}
+html[data-theme="dark"] .news-thumb-product { background: linear-gradient(135deg, #0a2e1a 0%, #0f3d22 100%); color: #68d391; }
 html[data-theme="dark"] .news-thumb-engineering { background: linear-gradient(135deg, #1a1f3a 0%, #1e2a4a 100%); color: #748ffc; }
 html[data-theme="dark"] .news-thumb-first { background: linear-gradient(135deg, #2a1f0a 0%, #3a2810 100%); color: #ffa94d; }
 .news-thumb-label {
@@ -4419,6 +4428,8 @@ html[data-theme="dark"] .news-thumb-first { background: linear-gradient(135deg, 
 }
 .news-tag-engineering { background: #e8edff; color: #3b5bdb; }
 .news-tag-first { background: #fff3e0; color: #e67700; }
+.news-tag-product { background: #e6fff0; color: #2f855a; }
+html[data-theme="dark"] .news-tag-product { background: #0a2e1a; color: #68d391; }
 html[data-theme="dark"] .news-tag-engineering { background: #1e2a4a; color: #748ffc; }
 html[data-theme="dark"] .news-tag-first { background: #2a1f0a; color: #ffa94d; }
 
