@@ -607,9 +607,9 @@ ul, ol { list-style: none; }
   text-decoration: none;
 }
 .nav-logo-img {
-  height: 130px;
+  height: 155px;
   width: auto;
-  max-width: 360px;
+  max-width: 420px;
   object-fit: contain;
   display: block;
   background: transparent;
@@ -622,7 +622,7 @@ ul, ol { list-style: none; }
 .nav-logo-img.logo-dark  { mix-blend-mode: screen; }
 
 @media (max-width: 900px) {
-  .nav-logo-img { height: 88px; max-width: 260px; }
+  .nav-logo-img { height: 105px; max-width: 300px; }
   .nav-inner    { height: 96px; }
 }
 
