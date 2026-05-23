@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AIK Auto — Trusted Automotive Spare Parts Since 1990</title>
+  <meta name="description" content="AIK Auto supplies original and aftermarket automotive spare parts from trusted global brands. Family-owned since 1990. Request your part today." />
+  <script>
+    (function(){var t=localStorage.getItem('aik-theme')||(window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t);})();
+  </script>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body>
+
+<!-- ============================
+     NAVBAR
+     ============================ -->
+<nav class="navbar transparent" role="navigation" aria-label="Main navigation">
+  <div class="container">
+    <div class="nav-inner">
+
+      <a href="index.html" class="nav-logo" aria-label="AIK Auto Home">
+        <img src="assets/aikdarklogo.png" alt="AIK Auto" class="nav-logo-img logo-dark" />
+          <img src="assets/aiklightlogo.png" alt="AIK Auto" class="nav-logo-img logo-light" />
+      </a>
+
+      <ul class="nav-links" role="list">
+        <li><a href="index.html" class="active" data-i18n="nav.home">Home</a></li>
+        <li><a href="products.html" data-i18n="nav.products">Products</a></li>
+        <li><a href="brands.html" data-i18n="nav.brands">Brands</a></li>
+        <li><a href="about.html" data-i18n="nav.about">About</a></li>
+        <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-right">
+        <div class="lang-toggle" role="group" aria-label="Language selector">
+          <button class="active" aria-pressed="true">EN</button>
+          <div class="sep" aria-hidden="true"></div>
+          <button aria-pressed="false">AR</button>
+        </div>
+        <button class="theme-toggle" id="themeToggle" aria-label="Switch to dark mode">
+          <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          <svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <a href="#" class="nav-wa" aria-label="WhatsApp" data-wa="Hello AIK Auto, I need help finding a spare part." title="Chat on WhatsApp">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+          </svg>
+        </a>
+        <a href="contact.html" class="btn btn-primary btn-sm" data-i18n="nav.request_quote">Request a Quote</a>
+      </div>
+
+      <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile menu -->
+<div class="mobile-menu" role="dialog" aria-label="Mobile navigation">
+  <a href="index.html" data-i18n="nav.home">Home</a>
+  <a href="products.html" data-i18n="nav.products">Products</a>
+  <a href="brands.html" data-i18n="nav.brands">Brands</a>
+  <a href="about.html" data-i18n="nav.about">About</a>
+  <a href="contact.html" data-i18n="nav.contact">Contact</a>
+  <div class="mobile-menu-actions">
+    <a href="contact.html" class="btn btn-primary" data-i18n="nav.request_quote">Request a Quote</a>
+    <a href="#" class="btn btn-secondary" data-wa="Hello AIK Auto, I need a spare part." data-i18n="mob.whatsapp">WhatsApp</a>
+  </div>
+</div>
+
+<!-- ============================
+     HERO
+     ============================ -->
+<section class="hero" aria-label="Hero section">
+  <div class="hero-bg">
+    <div class="hero-bg-img"></div>
+    <div class="hero-bg-overlay"></div>
+  </div>
+
+  <!-- Right visual: hero shot -->
+  <div class="hero-placeholder" aria-hidden="true">
+    <img src="assets/heroshot.png" alt="" class="hero-shot-img" />
+  </div>
+
+  <div class="container hero-inner">
+    <div class="hero-content">
+      <div class="hero-badge fade-in-up">
+        <span class="badge">
+          <svg width="10" height="10" viewBox="0 0 10 10" fill="currentColor"><circle cx="5" cy="5" r="5"/></svg>
+          <span data-i18n="hero.badge">Established in 1990 &nbsp;·&nbsp; Family-Owned Auto Parts Supplier</span>
+        </span>
+      </div>
+
+      <h1 class="hero-title fade-in-up delay-1" data-i18n-html="hero.title">
+        Find the Right<br />Auto Parts, <span class="accent">Fast.</span>
+      </h1>
+
+      <p class="hero-sub fade-in-up delay-2" data-i18n="hero.sub">
+        AIK Auto supplies original and aftermarket spare parts from trusted global brands, with expert support to help you find the right fit for your vehicle.
+      </p>
+
+      <div class="hero-actions fade-in-up delay-3">
+        <a href="contact.html" class="btn btn-primary btn-lg">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+          <span data-i18n="hero.req">Request a Part</span>
+        </a>
+        <a href="products.html" class="btn btn-secondary btn-lg">
+          <span data-i18n="hero.browse">Browse Products</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+
+      <div class="hero-trust fade-in-up delay-4">
+        <div class="hero-trust-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <span data-i18n="hero.t1">Genuine &amp; aftermarket parts</span>
+        </div>
+        <div class="hero-trust-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <span data-i18n="hero.t2">Fast support</span>
+        </div>
+        <div class="hero-trust-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <span data-i18n="hero.t3">Trusted since 1990</span>
+        </div>
+        <div class="hero-trust-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <span data-i18n="hero.t4">Local service</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating card -->
+  <div class="hero-float-card">
+    <p class="card-label" data-i18n="hero.fl.lbl">Need a part?</p>
+    <h4 data-i18n="hero.fl.h">Can't find what you need?</h4>
+    <p data-i18n="hero.fl.p">Send us your vehicle model or part number and we'll source it for you.</p>
+    <a href="#" class="btn btn-primary btn-sm" data-wa="Hello, I need help finding a specific auto part. My vehicle is:">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      <span data-i18n="hero.fl.wa">Chat on WhatsApp</span>
+    </a>
+  </div>
+</section>
+
+<!-- ============================
+     BRANDS / OUR PARTNERS (directly under hero)
+     ============================ -->
+<section class="partners-strip" aria-labelledby="brands-heading">
+  <div class="container">
+    <div class="section-header reveal" style="margin-bottom:32px;">
+      <span class="eyebrow" data-i18n="par.eye">Our Partners</span>
+      <h2 id="brands-heading" data-i18n="par.h">Trusted Brands We Work With</h2>
+      <p data-i18n="par.p">We source reliable parts from established automotive brands and suppliers around the world.</p>
+    </div>
+    <div class="brands-carousel-wrap">
+      <div class="brands-carousel-track">
+        <!-- Set 1 -->
+        <div class="brand-cc"><img src="assets/brands/brand-bosch-logo.png" alt="Bosch" /></div>
+        <div class="brand-cc"><img src="assets/brands/Website_Logos_LUK.png" alt="LUK" /></div>
+        <div class="brand-cc"><img src="assets/brands/ZF_Sachs_logo.svg.png" alt="ZF Sachs" /></div>
+        <div class="brand-cc"><img src="assets/brands/KOLBENSCHMIDT_400X300-2022-2-removebg-preview.png" alt="Kolbenschmidt" /></div>
+        <div class="brand-cc"><img src="assets/brands/PIERBURG-removebg-preview.png" alt="Pierburg" /></div>
+        <div class="brand-cc exclusive"><span class="excl-badge">Exclusive</span><img src="assets/brands/brand-meat-doria-logo.png" alt="Meat &amp; Doria" /></div>
+        <div class="brand-cc"><img src="assets/brands/brand-npr-logo.png" alt="NPR" /></div>
+        <div class="brand-cc"><img src="assets/brands/brand-sm-motoreteile-logo.png" alt="SM Motoreteile" /></div>
+        <div class="brand-cc"><img src="assets/brands/brand-vaico-logo.png" alt="VAICO" /></div>
+        <div class="brand-cc"><img src="assets/brands/logo_ina-b-removebg-preview.png" alt="INA" /></div>
+        <div class="brand-cc"><img src="assets/brands/topran.png" alt="Topran" /></div>
+        <div class="brand-cc"><img src="assets/brands/FEBI-logo-1-removebg-preview.png" alt="Febi Bilstein" /></div>
+        <div class="brand-cc exclusive"><span class="excl-badge">Exclusive</span><img src="assets/brands/lalda.png" alt="Lalda" /></div>
+        <div class="brand-cc exclusive"><span class="excl-badge">Exclusive</span><img src="assets/brands/brand-bogap-logo.png" alt="BOGAP" /></div>
+        <!-- Set 2 — duplicate for seamless loop -->
+        <div class="brand-cc"><img src="assets/brands/brand-bosch-logo.png" alt="Bosch" /></div>
+        <div class="brand-cc"><img src="assets/brands/Website_Logos_LUK.png" alt="LUK" /></div>
+        <div class="brand-cc"><img src="assets/brands/ZF_Sachs_logo.svg.png" alt="ZF Sachs" /></div>
+        <div class="brand-cc"><img src="assets/brands/KOLBENSCHMIDT_400X300-2022-2-removebg-preview.png" alt="Kolbenschmidt" /></div>
+        <div class="brand-cc"><img src="assets/brands/PIERBURG-removebg-preview.png" alt="Pierburg" /></div>
+        <div class="brand-cc exclusive"><span class="excl-badge">Exclusive</span><img src="assets/brands/brand-meat-doria-logo.png" alt="Meat &amp; Doria" /></div>
+        <div class="brand-cc"><img src="assets/brands/brand-npr-logo.png" alt="NPR" /></div>
+        <div class="brand-cc"><img src="assets/brands/brand-sm-motoreteile-logo.png" alt="SM Motoreteile" /></div>
+        <div class="brand-cc"><img src="assets/brands/brand-vaico-logo.png" alt="VAICO" /></div>
+        <div class="brand-cc"><img src="assets/brands/logo_ina-b-removebg-preview.png" alt="INA" /></div>
+        <div class="brand-cc"><img src="assets/brands/topran.png" alt="Topran" /></div>
+        <div class="brand-cc"><img src="assets/brands/FEBI-logo-1-removebg-preview.png" alt="Febi Bilstein" /></div>
+        <div class="brand-cc exclusive"><span class="excl-badge">Exclusive</span><img src="assets/brands/lalda.png" alt="Lalda" /></div>
+        <div class="brand-cc exclusive"><span class="excl-badge">Exclusive</span><img src="assets/brands/brand-bogap-logo.png" alt="BOGAP" /></div>
+      </div>
+    </div>
+    <div style="text-align:center; margin-top: 32px;" class="reveal">
+      <a href="brands.html" class="btn btn-outline-white">
+        <span data-i18n="par.all">View All Brands</span>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- ============================
+     PRODUCT CATEGORIES
+     ============================ -->
+<section class="section section-always-light" aria-labelledby="categories-heading">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="eyebrow" data-i18n="cat.eye">What We Supply</span>
+      <h2 id="categories-heading" data-i18n="cat.h">Auto Parts for Every Need</h2>
+      <p data-i18n="cat.p">Explore our main spare parts categories and request exactly what your vehicle needs.</p>
+    </div>
+
+    <div class="categories-grid">
+
+      <div class="category-card reveal">
+        <div class="category-card-img">
+          <img src="assets/What We Supply/break systems.png" alt="Brake Systems" class="cat-photo" />
+        </div>
+        <div class="category-card-body">
+          <h3 data-i18n="cat.brakes">Brake Systems</h3>
+          <p data-i18n="cat.brakes.p">Pads, discs, calipers, brake lines and complete braking solutions.</p>
+          <a href="products.html" class="btn btn-outline btn-sm" data-i18n="cat.view">View Parts</a>
+        </div>
+      </div>
+
+      <div class="category-card reveal reveal-delay-1">
+        <div class="category-card-img">
+          <img src="assets/What We Supply/Filters & Fluids.png" alt="Filters &amp; Fluids" class="cat-photo" />
+        </div>
+        <div class="category-card-body">
+          <h3 data-i18n="cat.filters">Filters &amp; Fluids</h3>
+          <p data-i18n="cat.filters.p">Oil filters, air filters, fuel filters, and automotive fluids.</p>
+          <a href="products.html" class="btn btn-outline btn-sm" data-i18n="cat.view">View Parts</a>
+        </div>
+      </div>
+
+      <div class="category-card reveal reveal-delay-2">
+        <div class="category-card-img">
+          <img src="assets/What We Supply/Suspension & Steering.png" alt="Suspension &amp; Steering" class="cat-photo" />
+        </div>
+        <div class="category-card-body">
+          <h3 data-i18n="cat.susp">Suspension &amp; Steering</h3>
+          <p data-i18n="cat.susp.p">Shock absorbers, control arms, ball joints, and steering components.</p>
+          <a href="products.html" class="btn btn-outline btn-sm" data-i18n="cat.view">View Parts</a>
+        </div>
+      </div>
+
+      <div class="category-card reveal">
+        <div class="category-card-img">
+          <img src="assets/What We Supply/Engine Parts.png" alt="Engine Parts" class="cat-photo" />
+        </div>
+        <div class="category-card-body">
+          <h3 data-i18n="cat.engine">Engine Parts</h3>
+          <p data-i18n="cat.engine.p">Timing belts, gaskets, pistons, valves, and engine rebuild kits.</p>
+          <a href="products.html" class="btn btn-outline btn-sm" data-i18n="cat.view">View Parts</a>
+        </div>
+      </div>
+
+      <div class="category-card reveal reveal-delay-1">
+        <div class="category-card-img">
+          <img src="assets/What We Supply/Transmission Parts.png" alt="Transmission Parts" class="cat-photo" />
+        </div>
+        <div class="category-card-body">
+          <h3 data-i18n="cat.trans">Transmission Parts</h3>
+          <p data-i18n="cat.trans.p">Clutch kits, gearbox parts, CV joints, and drivetrain components.</p>
+          <a href="products.html" class="btn btn-outline btn-sm" data-i18n="cat.view">View Parts</a>
+        </div>
+      </div>
+
+      <div class="category-card reveal reveal-delay-2">
+        <div class="category-card-img">
+          <img src="assets/What We Supply/Electrical Parts.png" alt="Electrical Parts" class="cat-photo" />
+        </div>
+        <div class="category-card-body">
+          <h3 data-i18n="cat.elec">Electrical Parts</h3>
+          <p data-i18n="cat.elec.p">Sensors, relays, starters, alternators, and lighting components.</p>
+          <a href="products.html" class="btn btn-outline btn-sm" data-i18n="cat.view">View Parts</a>
+        </div>
+      </div>
+
+      <div class="category-card reveal">
+        <div class="category-card-img">
+          <img src="assets/What We Supply/Cooling System.png" alt="Cooling System" class="cat-photo" />
+        </div>
+        <div class="category-card-body">
+          <h3 data-i18n="cat.cool">Cooling System</h3>
+          <p data-i18n="cat.cool.p">Radiators, thermostats, water pumps, and coolant hoses.</p>
+          <a href="products.html" class="btn btn-outline btn-sm" data-i18n="cat.view">View Parts</a>
+        </div>
+      </div>
+
+      <div class="category-card cat-soon reveal reveal-delay-1">
+        <div class="category-card-img">
+          <img src="assets/What We Supply/Accessories.png" alt="Accessories" class="cat-photo" />
+          <div class="soon-overlay">
+            <span class="soon-badge" data-i18n="cat.soon">Coming Soon</span>
+          </div>
+        </div>
+        <div class="category-card-body">
+          <h3 data-i18n="cat.acc">Accessories</h3>
+          <p data-i18n="cat.acc.p">Car care products, tools, and vehicle accessory items.</p>
+          <a href="contact.html" class="btn btn-outline btn-sm" data-i18n="cat.notify">Notify Me</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================
+     THE PROCESS
+     ============================ -->
+<section class="process-section" aria-labelledby="process-heading">
+  <div class="process-bg-layer" aria-hidden="true"></div>
+
+  <div class="container">
+
+    <div class="process-top reveal">
+      <div class="process-eyebrow-wrap">
+        <div class="process-rule"></div>
+        <span class="process-label" data-i18n="proc.lbl">THE PROCESS</span>
+        <div class="process-rule"></div>
+      </div>
+      <h2 id="process-heading" class="process-headline" data-i18n="proc.h">A Seamless Parts Experience</h2>
+      <p class="process-subtitle" data-i18n="proc.p">From your vehicle details to the right part — verified, packed, and delivered with precision.</p>
+    </div>
+
+    <div class="process-cards">
+
+      <div class="process-card reveal">
+        <div class="pc-left"><span class="pc-num">01</span></div>
+        <div class="pc-body">
+          <h3 class="pc-title" data-i18n="proc.s1h">Send Vehicle Details</h3>
+          <p class="pc-text" data-i18n="proc.s1p">Share your car make, model, year, VIN, or the specific part number you need.</p>
+        </div>
+        <div class="pc-image" aria-hidden="true">
+          <img src="assets/The Process/car1.png" alt="" />
+        </div>
+      </div>
+
+      <div class="process-card reveal reveal-delay-1">
+        <div class="pc-left"><span class="pc-num">02</span></div>
+        <div class="pc-body">
+          <h3 class="pc-title" data-i18n="proc.s2h">Compatibility Check</h3>
+          <p class="pc-text" data-i18n="proc.s2p">Our experts verify fitment using advanced tools to ensure the right match.</p>
+        </div>
+        <div class="pc-image" aria-hidden="true">
+          <img src="assets/The Process/search.png" alt="" />
+        </div>
+      </div>
+
+      <div class="process-card reveal reveal-delay-2">
+        <div class="pc-left"><span class="pc-num">03</span></div>
+        <div class="pc-body">
+          <h3 class="pc-title" data-i18n="proc.s3h">Pickup or Delivery</h3>
+          <p class="pc-text" data-i18n="proc.s3p">Collect your part directly or arrange secure delivery at your convenience.</p>
+        </div>
+        <div class="pc-image" aria-hidden="true">
+          <img src="assets/The Process/box.png" alt="" />
+        </div>
+      </div>
+
+    </div>
+
+    <div class="process-divider reveal" aria-hidden="true">
+      <div class="pd-line"></div>
+      <div class="pd-node"><div class="pd-dot"></div></div>
+      <div class="pd-line"></div>
+    </div>
+
+    <div class="process-cta reveal">
+      <p class="process-cta-text" data-i18n="proc.cta">Ready to get started? Send us your request directly on WhatsApp.</p>
+      <a href="#" class="process-wa-btn" data-wa="Hello AIK Auto, I would like to request a spare part. My vehicle details are:">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        <span data-i18n="proc.wa">Send Details on WhatsApp</span>
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================
+     WHY CHOOSE AIK AUTO
+     ============================ -->
+<section class="why-section" aria-labelledby="why-heading">
+  <div class="why-section-bg" aria-hidden="true"></div>
+  <div class="container">
+    <div class="why-split">
+
+      <!-- Left: feature block -->
+      <div class="why-feature reveal">
+        <div class="why-eyebrow-wrap">
+          <span class="why-eyebrow-dot" aria-hidden="true"></span>
+          <span class="why-eyebrow-label" data-i18n="why.eye">Why AIK Auto</span>
+        </div>
+        <h2 id="why-heading" class="why-headline" data-i18n-html="why.h">Built on Trust.<br>Driven by Precision.</h2>
+        <p class="why-story" data-i18n="why.p">Since 1990, AIK Auto has supported drivers, workshops, and businesses with reliable parts, careful matching, and personal service.</p>
+
+        <div class="why-year-block">
+          <span class="why-year" aria-hidden="true">1990</span>
+          <div class="why-year-meta">
+            <div class="why-year-rule" aria-hidden="true"></div>
+            <p data-i18n="why.ym">Decades of experience, family-owned trust, and practical support for finding the right part with confidence.</p>
+          </div>
+        </div>
+
+        <div class="why-stats">
+          <div class="why-stat">
+            <span class="why-stat-num">35+</span>
+            <span class="why-stat-label" data-i18n="why.sy">Years in business</span>
+          </div>
+          <div class="why-stat-sep" aria-hidden="true"></div>
+          <div class="why-stat">
+            <span class="why-stat-num">14+</span>
+            <span class="why-stat-label" data-i18n="why.sb">Brand partners</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: 6 trust points -->
+      <div class="why-cards">
+
+        <div class="why-card reveal">
+          <div class="wc-icon">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          </div>
+          <div class="wc-body">
+            <h3 data-i18n="why.c1h">Established Since 1990</h3>
+            <p data-i18n="why.c1p">Decades of experience in automotive spare parts.</p>
+          </div>
+        </div>
+
+        <div class="why-card reveal reveal-delay-1">
+          <div class="wc-icon">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+          </div>
+          <div class="wc-body">
+            <h3 data-i18n="why.c2h">Right-Part Support</h3>
+            <p data-i18n="why.c2p">We help confirm compatibility before every order.</p>
+          </div>
+        </div>
+
+        <div class="why-card reveal">
+          <div class="wc-icon">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <div class="wc-body">
+            <h3 data-i18n="why.c3h">Trusted Suppliers</h3>
+            <p data-i18n="why.c3p">Reliable original and aftermarket parts from verified brands.</p>
+          </div>
+        </div>
+
+        <div class="why-card reveal reveal-delay-1">
+          <div class="wc-icon">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <div class="wc-body">
+            <h3 data-i18n="why.c4h">Fast Response</h3>
+            <p data-i18n="why.c4p">Quick support for customers, workshops, and businesses.</p>
+          </div>
+        </div>
+
+        <div class="why-card reveal">
+          <div class="wc-icon">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+          </div>
+          <div class="wc-body">
+            <h3 data-i18n="why.c5h">Family-Owned Trust</h3>
+            <p data-i18n="why.c5p">Built on personal service and long-term relationships.</p>
+          </div>
+        </div>
+
+        <div class="why-card reveal reveal-delay-1">
+          <div class="wc-icon">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+          </div>
+          <div class="wc-body">
+            <h3 data-i18n="why.c6h">Professional Service</h3>
+            <p data-i18n="why.c6p">Clear communication from request to delivery.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================
+     FOUNDER STORY PREVIEW
+     ============================ -->
+<section class="leadership-section" aria-labelledby="leadership-heading">
+  <div class="leadership-bg" aria-hidden="true"></div>
+
+  <div class="container">
+    <div class="leadership-split">
+
+      <!-- Left: brand story text -->
+      <div class="leadership-content reveal">
+        <h2 id="leadership-heading" class="leadership-headline" data-i18n-html="fnd.h">Built on Trust<br>Since 1990.</h2>
+        <p class="leadership-sub" data-i18n="fnd.sub">AIK Auto was founded on decades of hands-on experience, family-owned trust, and a deep understanding of the automotive spare parts market.</p>
+        <p class="leadership-body" data-i18n="fnd.body">Led by Ahmad Ibrahim Amer, AIK Auto continues to support drivers, workshops, and businesses with reliable spare parts, practical guidance, and long-term customer relationships.</p>
+
+        <ul class="leadership-trust" aria-label="Company highlights">
+          <li class="lt-item">
+            <span class="lt-dot" aria-hidden="true"></span>
+            <span data-i18n="fnd.t1">35+ Years of Experience</span>
+          </li>
+          <li class="lt-item">
+            <span class="lt-dot" aria-hidden="true"></span>
+            <span data-i18n="fnd.t2">Family-Owned Business</span>
+          </li>
+          <li class="lt-item">
+            <span class="lt-dot" aria-hidden="true"></span>
+            <span data-i18n="fnd.t3">Global Supplier Relationships</span>
+          </li>
+        </ul>
+
+        <p class="leadership-global-hint" data-i18n="fnd.global">Global supplier relationships through international automotive exhibitions.</p>
+
+        <a href="about.html" class="leadership-cta">
+          <span data-i18n="fnd.cta">View Our Full Story</span>
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+
+      <!-- Right: single large founder card -->
+      <div class="founder-showcase reveal reveal-delay-1">
+        <div class="fgc-glow" aria-hidden="true"></div>
+        <div class="founder-glass-card">
+          <div class="fgc-portrait">
+            <img src="assets/founder-portrait-ahmad.jpg" alt="Ahmad Ibrahim Amer, Founder and Director of AIK Auto" />
+            <div class="fgc-portrait-overlay">
+              <span class="fgc-name" data-i18n="fnd.name">Ahmad Ibrahim Amer</span>
+              <span class="fgc-role" data-i18n="fnd.role">Founder &amp; Director</span>
+            </div>
+          </div>
+          <div class="fgc-body">
+            <p class="fgc-quote" data-i18n="fnd.quote">"Leading AIK Auto with decades of practical spare parts experience and trusted customer relationships."</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================
+     FEATURED PRODUCTS
+     ============================ -->
+<section class="section section-always-light" aria-labelledby="products-heading">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="eyebrow" data-i18n="fp.eye">Commonly Requested</span>
+      <h2 id="products-heading" data-i18n="fp.h">Featured Spare Parts</h2>
+      <p data-i18n="fp.p">A selection of commonly requested parts. More products can be requested directly through our team.</p>
+    </div>
+
+    <!-- Shop preview wrap: grid + browse btn blurred by overlay -->
+    <div class="shop-preview-wrap">
+
+      <div class="products-grid">
+
+        <div class="product-card">
+          <div class="product-card-img">
+            <div class="placeholder-img">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="3"/></svg>
+              <span>Brake Pads</span>
+            </div>
+          </div>
+          <div class="product-card-body">
+            <span class="tag">Brakes</span>
+            <h3>Brake Pads</h3>
+            <p>High-performance brake pads for reliable stopping power across all vehicle types.</p>
+            <div class="product-card-actions">
+              <span class="btn btn-primary" aria-disabled="true">Ask Availability</span>
+              <span class="btn btn-outline" aria-disabled="true">+ Quote</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-card-img">
+            <div class="placeholder-img">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>
+              <span>Oil Filter</span>
+            </div>
+          </div>
+          <div class="product-card-body">
+            <span class="tag">Filters</span>
+            <h3>Oil Filter</h3>
+            <p>Premium oil filters compatible with a wide range of petrol and diesel engines.</p>
+            <div class="product-card-actions">
+              <span class="btn btn-primary" aria-disabled="true">Ask Availability</span>
+              <span class="btn btn-outline" aria-disabled="true">+ Quote</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-card-img">
+            <div class="placeholder-img">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z"/></svg>
+              <span>Air Filter</span>
+            </div>
+          </div>
+          <div class="product-card-body">
+            <span class="tag">Filters</span>
+            <h3>Air Filter</h3>
+            <p>Quality air filters that keep engines clean and running efficiently.</p>
+            <div class="product-card-actions">
+              <span class="btn btn-primary" aria-disabled="true">Ask Availability</span>
+              <span class="btn btn-outline" aria-disabled="true">+ Quote</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-card-img">
+            <div class="placeholder-img">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><polyline points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+              <span>Spark Plugs</span>
+            </div>
+          </div>
+          <div class="product-card-body">
+            <span class="tag">Engine</span>
+            <h3>Spark Plugs</h3>
+            <p>Reliable spark plugs from top brands for smooth engine ignition.</p>
+            <div class="product-card-actions">
+              <span class="btn btn-primary" aria-disabled="true">Ask Availability</span>
+              <span class="btn btn-outline" aria-disabled="true">+ Quote</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-card-img">
+            <div class="placeholder-img">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><line x1="12" y1="2" x2="12" y2="22"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+              <span>Shock Absorbers</span>
+            </div>
+          </div>
+          <div class="product-card-body">
+            <span class="tag">Suspension</span>
+            <h3>Shock Absorbers</h3>
+            <p>Heavy-duty shock absorbers for improved ride comfort and vehicle stability.</p>
+            <div class="product-card-actions">
+              <span class="btn btn-primary" aria-disabled="true">Ask Availability</span>
+              <span class="btn btn-outline" aria-disabled="true">+ Quote</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-card-img">
+            <div class="placeholder-img">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M14 14.76V3.5a2.5 2.5 0 00-5 0v11.26a4.5 4.5 0 105 0z"/></svg>
+              <span>Engine Oil</span>
+            </div>
+          </div>
+          <div class="product-card-body">
+            <span class="tag">Fluids</span>
+            <h3>Engine Oil</h3>
+            <p>Synthetic and semi-synthetic engine oils from trusted automotive brands.</p>
+            <div class="product-card-actions">
+              <span class="btn btn-primary" aria-disabled="true">Ask Availability</span>
+              <span class="btn btn-outline" aria-disabled="true">+ Quote</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-card-img">
+            <div class="placeholder-img">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93l-2.83 2.83M6.34 17.66l-2.83 2.83M4.93 4.93l2.83 2.83M17.66 17.66l2.83 2.83M12 2v2M12 20v2M2 12h2M20 12h2"/></svg>
+              <span>Clutch Kit</span>
+            </div>
+          </div>
+          <div class="product-card-body">
+            <span class="tag">Transmission</span>
+            <h3>Clutch Kit</h3>
+            <p>Complete clutch kits including disc, pressure plate, and release bearing.</p>
+            <div class="product-card-actions">
+              <span class="btn btn-primary" aria-disabled="true">Ask Availability</span>
+              <span class="btn btn-outline" aria-disabled="true">+ Quote</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-card-img">
+            <div class="placeholder-img">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="2" y="7" width="20" height="11" rx="2"/><path d="M22 11V9a2 2 0 00-2-2h-1V5a2 2 0 00-2-2H7a2 2 0 00-2 2v2H4a2 2 0 00-2 2v2"/></svg>
+              <span>Battery</span>
+            </div>
+          </div>
+          <div class="product-card-body">
+            <span class="tag">Electrical</span>
+            <h3>Battery</h3>
+            <p>Reliable automotive batteries with strong cranking power for all climates.</p>
+            <div class="product-card-actions">
+              <span class="btn btn-primary" aria-disabled="true">Ask Availability</span>
+              <span class="btn btn-outline" aria-disabled="true">+ Quote</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="shop-browse-row">
+        <span class="btn btn-dark btn-lg" aria-disabled="true">
+          Browse All Products
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </span>
+      </div>
+
+      <!-- Coming Soon overlay -->
+      <div class="shop-coming-overlay" aria-label="Shop coming soon">
+        <div class="sco-panel">
+          <span class="sco-badge">Coming Soon</span>
+          <p class="sco-desc">Our online shop is being prepared. For now, please request parts directly through WhatsApp.</p>
+          <a class="sco-btn" data-wa="Hello AIK Auto, I would like to request a spare part. My vehicle details are:">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Request a Part on WhatsApp
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================
+     CTA SECTION
+     ============================ -->
+<section class="section cta-section" aria-labelledby="cta-heading">
+  <div class="container">
+    <h2 id="cta-heading" class="reveal" data-i18n="cta.h">Need a Part Now?</h2>
+    <p class="reveal reveal-delay-1" data-i18n="cta.p">Send us your vehicle details or part number and our team will help you find the right spare part fast.</p>
+    <div class="cta-actions reveal reveal-delay-2">
+      <a href="#" class="btn btn-primary btn-lg" data-wa="Hello AIK Auto, I need a spare part. My vehicle details are:">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        <span data-i18n="cta.wa">Request on WhatsApp</span>
+      </a>
+      <a href="contact.html" class="btn btn-secondary btn-lg" data-i18n="cta.contact">Contact Us</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================
+     FOOTER
+     ============================ -->
+<footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
+
+      <div class="footer-brand">
+        <a href="index.html" class="nav-logo" aria-label="AIK Auto Home">
+          <img src="assets/aikdarklogo.png" alt="AIK Auto" class="footer-logo" />
+        </a>
+        <p data-i18n="ft.tagline">A family-owned automotive spare parts supplier established in 1990. Trusted by drivers, workshops, and businesses for quality parts and reliable support.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </a>
+          <a href="#" aria-label="Facebook">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          </a>
+          <a href="#" aria-label="WhatsApp" data-wa="Hello AIK Auto!">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4 data-i18n="ft.quick">Quick Links</h4>
+        <ul>
+          <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+          <li><a href="products.html" data-i18n="nav.products">Products</a></li>
+          <li><a href="brands.html" data-i18n="nav.brands">Brands</a></li>
+          <li><a href="about.html" data-i18n="ft.about_us">About Us</a></li>
+          <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 data-i18n="ft.categories">Categories</h4>
+        <ul>
+          <li><a href="products.html" data-i18n="ft.brakes">Brake Systems</a></li>
+          <li><a href="products.html" data-i18n="ft.filters">Filters &amp; Fluids</a></li>
+          <li><a href="products.html" data-i18n="ft.susp">Suspension</a></li>
+          <li><a href="products.html" data-i18n="ft.engine">Engine Parts</a></li>
+          <li><a href="products.html" data-i18n="ft.elec">Electrical</a></li>
+          <li><a href="products.html" data-i18n="ft.cooling">Cooling System</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 data-i18n="ft.contact">Contact</h4>
+        <div class="footer-contact-item">
+          <div class="fc-icon">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.68A2 2 0 012 .82h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+          </div>
+          <p><strong>Phone</strong>Add your number here</p>
+        </div>
+        <div class="footer-contact-item">
+          <div class="fc-icon">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </div>
+          <p><strong>Email</strong>Add your email here</p>
+        </div>
+        <div class="footer-contact-item">
+          <div class="fc-icon">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <p><strong>Location</strong>Add your address here</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p data-i18n="ft.copy">© 2026 AIK Auto. Established in 1990. All rights reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="#" data-i18n="ft.privacy">Privacy Policy</a>
+        <a href="#" data-i18n="ft.terms">Terms</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp Float Button -->
+<div class="wa-float">
+  <span class="wa-float-tooltip" data-i18n="wa.tip">Chat with us on WhatsApp</span>
+  <a href="#" class="wa-float-btn" aria-label="Chat on WhatsApp" data-wa="Hello AIK Auto, I need help finding a spare part.">
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+</div>
+
+<script src="js/translations.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
