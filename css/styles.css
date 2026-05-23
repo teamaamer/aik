@@ -607,9 +607,9 @@ ul, ol { list-style: none; }
   text-decoration: none;
 }
 .nav-logo-img {
-  height: 155px;
+  height: 64px;
   width: auto;
-  max-width: 420px;
+  max-width: 240px;
   object-fit: contain;
   display: block;
   background: transparent;
@@ -622,7 +622,7 @@ ul, ol { list-style: none; }
 .nav-logo-img.logo-dark  { mix-blend-mode: screen; }
 
 @media (max-width: 900px) {
-  .nav-logo-img { height: 105px; max-width: 300px; }
+  .nav-logo-img { height: 52px; max-width: 180px; }
   .nav-inner    { height: 96px; }
 }
 
@@ -2805,7 +2805,7 @@ html[data-theme="dark"] .hero-bg-img::after {
    FOOTER
    ============================================ */
 .footer {
-  background: var(--charcoal);
+  background: var(--black);
   border-top: 1px solid rgba(255,255,255,.06);
   padding-top: 72px;
   padding-bottom: 32px;
