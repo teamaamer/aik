@@ -3875,13 +3875,18 @@ html[data-theme="dark"] .brand-full-card.exclusive {
    ============================================ */
 
 /* 1. Hero badge */
+@keyframes ahb-glitter {
+  0%   { background-position: 200% 50%; }
+  100% { background-position: -200% 50%; }
+}
 .about-hero-badge {
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  background: rgba(225,29,46,.07);
-  border: 1px solid rgba(225,29,46,.18);
-  color: var(--red);
+  background: rgba(30,30,32,.72);
+  border: 1px solid rgba(225,29,46,.28);
+  box-shadow: 0 0 12px rgba(225,29,46,.08), inset 0 1px 0 rgba(255,255,255,.05);
+  color: rgba(210,210,215,.85);
   font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.12em;
@@ -3894,9 +3899,12 @@ html[data-theme="dark"] .brand-full-card.exclusive {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: var(--red);
+  background: linear-gradient(135deg, #ff6b6b 0%, #e11d2e 40%, #ff4d5e 60%, #c0152a 80%, #ff6b6b 100%);
+  background-size: 300% 300%;
+  animation: ahb-glitter 2.5s linear infinite;
   display: inline-block;
   flex-shrink: 0;
+  box-shadow: 0 0 6px rgba(225,29,46,.6);
 }
 
 /* 2. Story section */
