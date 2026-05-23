@@ -581,6 +581,7 @@ ul, ol { list-style: none; }
   z-index: 1000;
   transition: background var(--transition), box-shadow var(--transition), border-color var(--transition);
   padding-block: 0;
+  overflow: visible;
 }
 .navbar.transparent { background: transparent; }
 .navbar.scrolled {
@@ -606,9 +607,9 @@ ul, ol { list-style: none; }
   text-decoration: none;
 }
 .nav-logo-img {
-  height: 100px;
+  height: 130px;
   width: auto;
-  max-width: 320px;
+  max-width: 360px;
   object-fit: contain;
   display: block;
   background: transparent;
@@ -621,7 +622,7 @@ ul, ol { list-style: none; }
 .nav-logo-img.logo-dark  { mix-blend-mode: screen; }
 
 @media (max-width: 900px) {
-  .nav-logo-img { height: 72px; max-width: 240px; }
+  .nav-logo-img { height: 88px; max-width: 260px; }
   .nav-inner    { height: 96px; }
 }
 
