@@ -2074,12 +2074,41 @@ html[data-theme="dark"] .hero-bg-img::after {
   background: rgba(225,29,46,.08);
 }
 
-/* ---- Right: single founder showcase ---- */
+/* ---- Right: founder showcase ---- */
 .founder-showcase {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.founder-showcase-duo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  align-items: start;
+}
+.founder-showcase-duo .fgc-glow {
+  grid-column: 1 / -1;
+  position: absolute;
+}
+.founder-showcase-duo .founder-glass-card {
+  max-width: 100%;
+}
+
+/* Empty / placeholder card */
+.fgc-portrait-empty {
+  background: rgba(255,255,255,.03);
+}
+.fgc-portrait-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255,255,255,.15);
+}
+.founder-glass-card-empty .fgc-portrait::after {
+  background: linear-gradient(to bottom, transparent 0%, rgba(5,5,5,.85) 100%);
 }
 
 .fgc-glow {
@@ -2206,6 +2235,8 @@ html[data-theme="dark"] .hero-bg-img::after {
   .leadership-section { padding-block: 64px; }
   .founder-showcase { justify-content: flex-start; }
   .founder-glass-card { max-width: 380px; }
+  .founder-showcase-duo { grid-template-columns: 1fr 1fr; gap: 12px; }
+  .founder-showcase-duo .founder-glass-card { max-width: 100%; }
 }
 @media (max-width: 480px) {
   .leadership-section { padding-block: 48px; }

@@ -112,7 +112,9 @@ const AIK_T = {
 
     'fnd.h':'Built on Trust<br>Since 1990.',
     'fnd.sub':'AIK Auto was founded on decades of hands-on experience, family-owned trust, and a deep understanding of the automotive spare parts market.',
-    'fnd.body':'Founded by Ahmad Ibrahim Khalil Amer, AIK Auto is now led by Ahmad and Khalil, continuing to support drivers, workshops, and businesses with reliable spare parts, practical guidance, and long-term customer relationships.',
+    'fnd.body':'Founded by Ahmad & Khalil Ibrahim Amer, AIK Auto continues to support drivers, workshops, and businesses with reliable spare parts, practical guidance, and long-term customer relationships.',
+    'fnd.c.name':'Khalil Ibrahim Amer','fnd.c.role':'Co-Founder & CFO',
+    'fnd.c.quote':'"Supporting AIK Auto\'s financial growth and long-term business stability as a trusted family enterprise."',
     'fnd.t1':'35+ Years of Experience','fnd.t2':'Family-Owned Business','fnd.t3':'Global Supplier Relationships',
     'fnd.global':'Global supplier relationships through international automotive exhibitions.',
     'fnd.cta':'View Our Full Story',
@@ -351,7 +353,9 @@ const AIK_T = {
 
     'fnd.h':'مبنية على الثقة<br>منذ 1990.',
     'fnd.sub':'تأسست AIK Auto على عقود من الخبرة العملية، وثقة العائلة، وفهم عميق لسوق قطع غيار السيارات.',
-    'fnd.body':'أسسها أحمد إبراهيم خليل عامر، وتُدار AIK Auto اليوم بقيادة أحمد وخليل، لمواصلة دعم السائقين والورش والشركات بقطع غيار موثوقة وإرشاد عملي وعلاقات عملاء طويلة الأمد.',
+    'fnd.body':'تأسست AIK Auto على يد أحمد وخليل إبراهيم عامر، وتواصل دعم السائقين والورش والشركات بقطع غيار موثوقة وإرشاد عملي وعلاقات عملاء طويلة الأمد.',
+    'fnd.c.name':'خليل إبراهيم عامر','fnd.c.role':'المؤسس المشارك والمدير المالي',
+    'fnd.c.quote':'»دعم نمو AIK Auto وتوجيهها المالي واستقرارها طويل الأمد كشركة عائلية موثوقة.«',
     'fnd.t1':'35+ سنة خبرة','fnd.t2':'شركة عائلية','fnd.t3':'علاقات موردين عالمية',
     'fnd.global':'علاقات موردين عالمية من خلال معارض السيارات الدولية.',
     'fnd.cta':'اقرأ قصتنا كاملة',
